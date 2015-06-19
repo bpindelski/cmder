@@ -42,7 +42,7 @@ Ensure-Executable "7z"
 $targets = @{
     "cmder.zip" = $null;
     "cmder.7z" = $null;
-    "cmder_mini.zip" = "-x!`"vendor\msysgit`"";
+    "cmder_mini.zip" = "-x!`"vendor\PortableGit`"";
 }
 
 Delete-Existing "..\Version*"

@@ -62,7 +62,7 @@ Ensure-Executable "7z"
 New-Item -Type Directory -Path (Join-Path $saveTo "/tmp/") -ErrorAction SilentlyContinue >$null
 
 foreach ($s in $sources) {
-    if($Full -eq $false -and $s.name -eq "msysgit"){
+    if($Full -eq $false -and $s.name -eq "PortableGit"){
         Continue
     }
 
